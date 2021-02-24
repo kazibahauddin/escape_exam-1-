@@ -1,0 +1,581 @@
+/****** Font Include***/
+@font-face{
+	src:url(../fonts/Brandon-Bold.otf);
+	font-family: Brandon-Bold;
+}
+@font-face{
+	src:url(../fonts/Brandon-Light.otf);
+	font-family: Brandon-Light;
+}
+
+@font-face{
+	src:url(../fonts/Brandon-Regular.otf);
+	font-family: Brandon-Regular;
+}
+
+@font-face{
+	src:url(../fonts/Brandon-Medium.otf);
+	font-family: Brandon-Medium;
+}
+body{
+	margin:0;
+	padding: 0; 
+}
+p{
+	font-family: Brandon-Regular;
+	font-weight: 400;
+	font-size: 17px;
+	color: #777777;
+	line-height: 24px;
+	text-align: left;
+}
+
+/*******Header Part Start*****/
+
+.header-banner{
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header{
+	width: 80%;
+	margin:0 auto;
+	overflow: hidden;
+	padding-top: 20px;
+}
+
+.logo{
+	width: 16%;
+	margin-top: 10px;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 80%;
+	float: right;
+}
+.menu ul {
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	margin: 10px 15px;
+}
+.menu ul li a{
+	padding: 5px 5px;
+	text-decoration: none;
+	font-family: Brandon-Medium;
+	font-size: 18px;
+	line-height: 24px;
+	color:white;
+	transition: all .5s ease;
+}
+.menu ul li a:hover{
+	color: #CD853F;
+	font-weight: bold;
+	border-bottom: 1px solid #fff;
+}
+.menu ul li:last-child a{
+	margin-right: 0:
+	padding-right:0;
+}
+
+/****header end****/
+
+/*****Banner Start****/
+.container{
+	width: 80%;
+	margin:0 auto;
+	padding: 120px 0;
+	overflow: hidden;
+}
+.banner_content{
+	width: 100%;
+	text-align: center;
+}
+.banner_content h1{
+	margin: 0 0 65px 0;
+	font-family: Brandon-Bold;
+	font-weight: 700;
+	font-size: 50px;
+	color:white;
+	text-transform: uppercase;
+}
+.banner_content h3{
+	margin: 0 0 10px 0;
+	font-family: Brandon-Bold;
+	font-weight: 300;
+	font-size: 28px;
+	word-spacing: 1px;
+	color:white;
+	text-transform: capitalize;
+}
+
+.banner_content button{
+	width: 200px;
+	height: 45px;
+	background: transparent;
+	font-family: Brandon-Regular;
+	font-weight: 400;
+	font-size: 20px;
+	color:#fff;
+	border: 2px solid white;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+.banner_content button:hover{
+	background: #A9A9A9;
+	/*color: black;*/
+	border: 2px solid black;
+	border-radius: 5%;
+
+	opacity: .8;
+}
+/*****Banner End****/
+
+/*****Web and Brand Start*****/
+.container2{
+	width: 70%;
+	margin:0 auto;
+	padding: 50px 0;
+	overflow: hidden;
+}
+.web-content{
+	width: 60%;
+	float: left;
+}
+
+.web-content h1{
+	margin-top: 0;
+	font-family: Brandon-Bold;
+	font-weight: 700;
+	font-size: 50px;
+}
+.web-content p{
+	padding-bottom: 10px;
+	text-align: left;
+}
+.web-img{
+	width: 25%;
+	float:right;
+	padding: 0 0 60px 0;
+}
+.web-img img{
+	width: 100%;
+}
+.light{
+	font-family: Brandon-Light;
+	font-size: 50px;
+	font-weight: 300;
+	color: #424242;
+}
+.brand{
+	background: #fafafa;
+}
+
+.brand-img{
+	width: 25%;
+	float: left;
+	padding: 0 60px 0 0;
+}
+.brand-img img{
+	width: 100%;
+}
+.brand-content{
+	width: 60%;
+	float: right;
+}
+.brand-content p{
+	padding-bottom: 10px;
+	text-align: left;
+}
+.brand-content h1{
+	margin-top: 0;
+	font-family: Brandon-Bold;
+	font-weight: 700;
+	font-size: 50px;
+}
+/*****Web and Brand End*****/
+
+/*******Service Start*******/
+.service-content{
+	width: 45%;
+	padding:20px 0;
+	transition: all .5s ease;
+	margin-left: 20px;
+}
+.service-content:hover{
+	border-radius: 10px; 
+	box-shadow: -1px 7px 14px 2px rgba(0,0,0,0.7);
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+	margin-right: 20px;
+}
+
+.ser-img{
+	width: 20%;
+	float: left;
+}
+.ser-img img{
+	width: 100%;
+}
+.ser-content2{
+	width: 70%;
+	float:left;
+	padding-left: 20px;
+}
+.ser-content2 h3{
+	margin-top: 0;
+	font-family: Brandon-Medium;
+	font-size: 22px;
+	color:#222222;
+	text-transform: capitalize;
+}
+.ser-content2 p{
+	text-align: left;
+}
+
+/*******Service End*******/
+
+/*******Client Start*****/
+.client{
+	background: #fafafa;
+}
+
+
+.client-content h1{
+	margin: 0;
+	font-family: Brandon-Bold;
+	font-weight: 700;
+	font-size: 50px;
+	text-align: center;
+}
+.client-content p{
+	margin:0;
+	text-align: center;
+}
+.client-person1{
+	overflow: hidden;
+}
+.client-person1 .cl-img{
+	width: 200px;
+	height: 200px;
+	float: left;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.client-person1 .cl-img img{
+	width: 100%;
+	height: 200px;
+	transition: all .9s ease;
+}
+.cl-img img:hover{
+	transform: scale(1.2);
+}
+.client-person1 .cl-disc{
+	margin-top: 20px;
+	width: 65%;
+	float: right;
+	background: #ffffff;
+	padding: 40px;
+	position: relative;
+}
+.cl-disc:before{
+	content: '';
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background: #ffffff;
+	top:45%;
+	left:-15px;
+	transform: rotate(45deg);
+}
+.cl-disc p{
+	margin:0;
+	font-family: Brandon-Regular;
+	font-size: 22px;
+	text-align: left;
+	line-height: 24px;
+}
+.cl-disc span{
+	font-family: Brandon-Regular;
+	font-size: 16px;
+	color:#7690c5;
+	text-align: left;
+}
+.client-person2{
+	overflow: hidden;
+	padding-top: 20px;
+}
+.client-person2 .cl-disc2{
+	margin-top: 20px;
+	width: 65%;
+	float: left;
+	background: #ffffff;
+	padding: 40px;
+	position: relative;
+}
+
+.cl-disc2:before{
+	content: '';
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background: #ffffff;
+	top:45%;
+	right:-15px;
+	transform: rotate(45deg);
+}
+.client-person2 .cl-img2{
+	width: 200px;
+	height: 200px;
+	float: right;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.client-person2 .cl-img2 img{
+	width: 100%;
+	height: 200px;
+	transition: all .9s ease;
+}
+.cl-img2 img:hover{
+	transform: scale(1.2);
+}
+.cl-disc2 p{
+	margin:0;
+	font-family: Brandon-Regular;
+	font-size: 22px;
+	text-align: left;
+	line-height: 24px;
+}
+.cl-disc2 span{
+	font-family: Brandon-Regular;
+	font-size: 16px;
+	color:#7690c5;
+	text-align: left;
+}
+/*******Client End*****/
+
+/*******Full Team start****/
+.full-team{
+	background: #111111;
+
+}
+.full-team h1{
+	margin: 0;
+	font-family: Brandon-Bold;
+	font-weight: 700;
+	font-size: 50px;
+	text-align: center;
+	color:white;
+}
+.white{
+	font-family: Brandon-Light;
+	font-size: 50px;
+	font-weight: 300;
+	color: #fff;
+}
+.full-team p{
+	margin: 0 0 70px 0;
+	font-family: Brandon-Regular;
+	font-weight: 400;
+	font-size: 22px;
+	color: #fff;
+	line-height: 24px;
+	text-align: center;
+}
+.team{
+	width: 25%;
+	padding:0 30px 0 30px;
+	float: left;
+	text-align: center;
+}
+.team-img{
+	width: 100%;
+	height: 100%;
+	margin-left: 20px;
+	border: 5px solid white;
+	border-radius: 50%;
+	overflow: hidden;
+	
+}
+.team-img img{
+	width: 100%;
+	transition: all .9s ease;
+}
+.team-img img:hover{
+	transform: scale(1.1);
+}
+.team h4{
+	margin:10px 0 0;
+	font-family: Brandon-bold;
+	font-weight: 700;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+}
+.team span{
+	font-family: Brandon-Light;
+	font-weight: 300;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+.team-img img{
+	width: 100%;
+	height: 250px;
+	border-radius: 50%;
+}
+.team-icon i{
+	margin-top: 10px;
+	color:white;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	border:2px solid white;
+	border-radius: 50%;
+	line-height: 30px;
+	font-size: 18px;
+	transition: all .5s ease;
+}
+.team-icon .fa-twitter:hover{
+	color:#fff; 
+	background-color:#55ACEE;
+}
+ .team-icon .fa-facebook-f:hover{
+	color:#fff; background-color:#37589b;
+}
+.team-icon .fa-pinterest-p:hover{
+	color:#fff; background-color:#cb2027;
+}
+.full-team h5{
+	width: 72%;
+	margin: 30px 0 0 10%;
+	font-family: Brandon-Regular;
+	font-weight: 400;
+	font-size: 20px;
+	color: #fff;
+	float: left;
+	line-height: 24px;
+	text-align: center;
+}
+/*******Full Team End****/
+
+
+/*****Contact Start****/
+.contact{
+	background: #7690c5;
+	padding-top: 30px;
+}
+.contact-social{
+	width: 48%;
+	float: left;
+	overflow: hidden;
+}
+.contact-social h1{
+	margin:0 0 10px 0;
+	font-family: Brandon-Bold;
+	font-weight: 700;
+	font-size: 50px;
+	text-align: left;
+	color:white;
+}
+.contact-social .white{
+	font-family: Brandon-Light;
+	font-size: 50px;
+	font-weight: 700;
+	color: #fff;
+}
+.contact-social p{
+	margin: 0 0 30px 0;
+	font-family: Brandon-Regular;
+	font-weight: 400;
+	font-size: 18px;
+	color: #fff;
+	line-height: 24px;
+	text-align: left;
+}
+
+.contact-social i{
+	color: white;
+	font-size: 25px;
+}
+.c-left{
+	float: left;
+	width: 50%;
+	text-align: left;
+	padding-bottom: 20px;
+}
+.c-left span{
+	margin-left: 20px;
+	font-family: Brandon-Regular;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+}
+.c-right{
+	float: right;
+	width: 50%;
+	text-align: left;
+	padding-bottom: 20px;
+}
+.c-right span{
+	margin-left: 20px;
+	font-family: Brandon-Regular;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+}
+.contact-form{
+	margin-top: 0;
+	width: 45%;
+	float: right;
+}
+.contact-form input{
+	width:400px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border:none;
+	font-family: Brandon-Regular;
+	font-weight: 400;
+	font-size: 16px;
+	border-radius: 5px;
+}
+.contact-form textarea{
+	width: 400px;
+	padding:10px;
+	border: none;
+	font-family: Brandon-Regular;
+	font-weight: 400;
+	font-size: 16px;
+	border-radius: 5px;
+}
+/*****Contact End****/
+/*****Footer Start****/
+footer{
+	background: #7690c5;
+	
+}
+.footer{
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+	border-top: 1px solid white;
+
+}
+.footer p{
+	color: white;
+	text-align: center;
+	font-size: 16px;
+}
+/*****Footer End****/
